@@ -1,0 +1,1018 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1455BAE13B64672570037A44 /* Pods_WACThaiIDCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B41B4FF38D1A4C8D0581B83 /* Pods_WACThaiIDCloud.framework */; };
+		3F83B0F0FC5177FF9C04A2D9 /* Pods_WACThaiIDCloudTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BAD8803F6210359914341B3 /* Pods_WACThaiIDCloudTests.framework */; };
+		76ABCF46B02439567DB2134D /* Pods_WACThaiIDCloud_WACThaiIDCloudUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDD634FD5B71CFDCC26A1254 /* Pods_WACThaiIDCloud_WACThaiIDCloudUITests.framework */; };
+		8D2F9756289EA9380043A26F /* scripts in Resources */ = {isa = PBXBuildFile; fileRef = 8D2F9755289EA9380043A26F /* scripts */; };
+		8D2F9758289ECD8A0043A26F /* NativeCardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2F9757289ECD8A0043A26F /* NativeCardInfo.swift */; };
+		8D2F975A289ECE1B0043A26F /* CardAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2F9759289ECE1B0043A26F /* CardAddress.swift */; };
+		8D63F4DC28918D7A0012B9AF /* ScanDeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D63F4DB28918D7A0012B9AF /* ScanDeviceViewController.swift */; };
+		8D63F4DE289191B70012B9AF /* ListScanCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D63F4DD289191B70012B9AF /* ListScanCell.swift */; };
+		8D6A68EE289E1CED00A7E989 /* Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6A68ED289E1CED00A7E989 /* Hex.swift */; };
+		8D7516E228A37F5400A827A3 /* AuthRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7516E128A37F5400A827A3 /* AuthRecord.swift */; };
+		8D7516E428A3832600A827A3 /* DnsAndPortRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7516E328A3832600A827A3 /* DnsAndPortRecord.swift */; };
+		8DB63E0C289278C900FFE71B /* ReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB63E0B289278C900FFE71B /* ReaderViewController.swift */; };
+		8DB904CA288E993D00BCC4E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB904C9288E993D00BCC4E6 /* AppDelegate.swift */; };
+		8DB904CC288E993D00BCC4E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB904CB288E993D00BCC4E6 /* SceneDelegate.swift */; };
+		8DB904D1288E993D00BCC4E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DB904CF288E993D00BCC4E6 /* Main.storyboard */; };
+		8DB904D3288E993F00BCC4E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DB904D2288E993F00BCC4E6 /* Assets.xcassets */; };
+		8DB904D6288E993F00BCC4E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DB904D4288E993F00BCC4E6 /* LaunchScreen.storyboard */; };
+		8DB904E1288E993F00BCC4E6 /* WACThaiIDCloudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB904E0288E993F00BCC4E6 /* WACThaiIDCloudTests.swift */; };
+		8DB904EB288E994000BCC4E6 /* WACThaiIDCloudUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB904EA288E994000BCC4E6 /* WACThaiIDCloudUITests.swift */; };
+		8DB904ED288E994000BCC4E6 /* WACThaiIDCloudUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB904EC288E994000BCC4E6 /* WACThaiIDCloudUITestsLaunchTests.swift */; };
+		8DB904FB288E9BE800BCC4E6 /* mPayLib in Resources */ = {isa = PBXBuildFile; fileRef = 8DB904FA288E9BE800BCC4E6 /* mPayLib */; };
+		8DB904FC288E9C0C00BCC4E6 /* mPayLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB904F9288E9BD300BCC4E6 /* mPayLib.a */; };
+		8DB90502288EA4C400BCC4E6 /* ACSSmartCardIO.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB90501288EA4C400BCC4E6 /* ACSSmartCardIO.xcframework */; };
+		8DB90503288EA4C400BCC4E6 /* ACSSmartCardIO.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB90501288EA4C400BCC4E6 /* ACSSmartCardIO.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8DB90506288EA4CC00BCC4E6 /* SmartCardIO.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB90505288EA4CC00BCC4E6 /* SmartCardIO.xcframework */; };
+		8DB90507288EA4CC00BCC4E6 /* SmartCardIO.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB90505288EA4CC00BCC4E6 /* SmartCardIO.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8DCB69BC28A0E05A00CCC6EB /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCB69BB28A0E05A00CCC6EB /* LoginVC.swift */; };
+		8DCB69BE28A1017000CCC6EB /* GlobalVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCB69BD28A1017000CCC6EB /* GlobalVariable.swift */; };
+		8DCB69C028A13FB100CCC6EB /* ViewController+MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCB69BF28A13FB100CCC6EB /* ViewController+MyViewController.swift */; };
+		8DCB69CC28A1516700CCC6EB /* String+MyString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCB69CB28A1516700CCC6EB /* String+MyString.swift */; };
+		8DCB69CE28A151A200CCC6EB /* Date+MyDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCB69CD28A151A200CCC6EB /* Date+MyDate.swift */; };
+		8DCB69D028A151E400CCC6EB /* ReaderViewController+ReaderMBR20.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCB69CF28A151E400CCC6EB /* ReaderViewController+ReaderMBR20.swift */; };
+		8DCB69D228A151FA00CCC6EB /* ReaderViewController+ReaderACS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCB69D128A151FA00CCC6EB /* ReaderViewController+ReaderACS.swift */; };
+		8DCB69D428A155C000CCC6EB /* Color+MyColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCB69D328A155C000CCC6EB /* Color+MyColor.swift */; };
+		8DCB69D628A163B600CCC6EB /* OfflineRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCB69D528A163B600CCC6EB /* OfflineRecord.swift */; };
+		8DD270BB289C206700BEA5EE /* ReaderViewController + TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD270BA289C206700BEA5EE /* ReaderViewController + TableView.swift */; };
+		8DD270BE289C216500BEA5EE /* ItemDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD270BC289C216500BEA5EE /* ItemDataCell.swift */; };
+		8DD270BF289C216500BEA5EE /* ItemDataCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DD270BD289C216500BEA5EE /* ItemDataCell.xib */; };
+		8DD6F4EF2892E12F00D16900 /* ISO8859 in Frameworks */ = {isa = PBXBuildFile; productRef = 8DD6F4EE2892E12F00D16900 /* ISO8859 */; };
+		8DDA9CAF289FC61E00618228 /* zipcode.json in Resources */ = {isa = PBXBuildFile; fileRef = 8DDA9CAE289FC61E00618228 /* zipcode.json */; };
+		8DDA9CB1289FC87B00618228 /* PostalCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDA9CB0289FC87B00618228 /* PostalCode.swift */; };
+		8DDA9CB428A0042A00618228 /* WACThaiIDCloudAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDA9CB328A0042A00618228 /* WACThaiIDCloudAPI.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DB904DD288E993F00BCC4E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DB904BE288E993D00BCC4E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DB904C5288E993D00BCC4E6;
+			remoteInfo = WACThaiIDCloud;
+		};
+		8DB904E7288E994000BCC4E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DB904BE288E993D00BCC4E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DB904C5288E993D00BCC4E6;
+			remoteInfo = WACThaiIDCloud;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DB90504288EA4C400BCC4E6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8DB90503288EA4C400BCC4E6 /* ACSSmartCardIO.xcframework in Embed Frameworks */,
+				8DB90507288EA4CC00BCC4E6 /* SmartCardIO.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1B41B4FF38D1A4C8D0581B83 /* Pods_WACThaiIDCloud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WACThaiIDCloud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		295607D0F1A72CD6DB08E931 /* Pods-WACThaiIDCloud-WACThaiIDCloudUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WACThaiIDCloud-WACThaiIDCloudUITests.debug.xcconfig"; path = "Target Support Files/Pods-WACThaiIDCloud-WACThaiIDCloudUITests/Pods-WACThaiIDCloud-WACThaiIDCloudUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D1DDF5C8171DB1A26E7A187 /* Pods-WACThaiIDCloudTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WACThaiIDCloudTests.release.xcconfig"; path = "Target Support Files/Pods-WACThaiIDCloudTests/Pods-WACThaiIDCloudTests.release.xcconfig"; sourceTree = "<group>"; };
+		5354B23E6E747178E4F7C518 /* Pods-WACThaiIDCloud-WACThaiIDCloudUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WACThaiIDCloud-WACThaiIDCloudUITests.release.xcconfig"; path = "Target Support Files/Pods-WACThaiIDCloud-WACThaiIDCloudUITests/Pods-WACThaiIDCloud-WACThaiIDCloudUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5DC1B9101583791AEE67C62E /* Pods-WACThaiIDCloud.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WACThaiIDCloud.release.xcconfig"; path = "Target Support Files/Pods-WACThaiIDCloud/Pods-WACThaiIDCloud.release.xcconfig"; sourceTree = "<group>"; };
+		68FDC5C7C66B4D802D60D204 /* Pods-WACThaiIDCloud.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WACThaiIDCloud.debug.xcconfig"; path = "Target Support Files/Pods-WACThaiIDCloud/Pods-WACThaiIDCloud.debug.xcconfig"; sourceTree = "<group>"; };
+		6BAD8803F6210359914341B3 /* Pods_WACThaiIDCloudTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WACThaiIDCloudTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D2F9755289EA9380043A26F /* scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = scripts; sourceTree = "<group>"; };
+		8D2F9757289ECD8A0043A26F /* NativeCardInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeCardInfo.swift; sourceTree = "<group>"; };
+		8D2F9759289ECE1B0043A26F /* CardAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardAddress.swift; sourceTree = "<group>"; };
+		8D63F4DB28918D7A0012B9AF /* ScanDeviceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanDeviceViewController.swift; sourceTree = "<group>"; };
+		8D63F4DD289191B70012B9AF /* ListScanCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListScanCell.swift; sourceTree = "<group>"; };
+		8D6A68ED289E1CED00A7E989 /* Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hex.swift; sourceTree = "<group>"; };
+		8D7516E128A37F5400A827A3 /* AuthRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRecord.swift; sourceTree = "<group>"; };
+		8D7516E328A3832600A827A3 /* DnsAndPortRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DnsAndPortRecord.swift; sourceTree = "<group>"; };
+		8DB63E0B289278C900FFE71B /* ReaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderViewController.swift; sourceTree = "<group>"; };
+		8DB904C6288E993D00BCC4E6 /* WACThaiIDCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WACThaiIDCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DB904C9288E993D00BCC4E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8DB904CB288E993D00BCC4E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8DB904D0288E993D00BCC4E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8DB904D2288E993F00BCC4E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DB904D5288E993F00BCC4E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8DB904D7288E993F00BCC4E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DB904DC288E993F00BCC4E6 /* WACThaiIDCloudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WACThaiIDCloudTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DB904E0288E993F00BCC4E6 /* WACThaiIDCloudTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WACThaiIDCloudTests.swift; sourceTree = "<group>"; };
+		8DB904E6288E994000BCC4E6 /* WACThaiIDCloudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WACThaiIDCloudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DB904EA288E994000BCC4E6 /* WACThaiIDCloudUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WACThaiIDCloudUITests.swift; sourceTree = "<group>"; };
+		8DB904EC288E994000BCC4E6 /* WACThaiIDCloudUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WACThaiIDCloudUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8DB904F9288E9BD300BCC4E6 /* mPayLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = mPayLib.a; path = mPayLib/mPayLib.a; sourceTree = "<group>"; };
+		8DB904FA288E9BE800BCC4E6 /* mPayLib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = mPayLib; sourceTree = "<group>"; };
+		8DB904FE288EA02200BCC4E6 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		8DB904FF288EA17400BCC4E6 /* mPayBleLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mPayBleLib.h; sourceTree = "<group>"; };
+		8DB90500288EA17C00BCC4E6 /* BleComm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BleComm.h; sourceTree = "<group>"; };
+		8DB90501288EA4C400BCC4E6 /* ACSSmartCardIO.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ACSSmartCardIO.xcframework; sourceTree = "<group>"; };
+		8DB90505288EA4CC00BCC4E6 /* SmartCardIO.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = SmartCardIO.xcframework; sourceTree = "<group>"; };
+		8DCB69BB28A0E05A00CCC6EB /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		8DCB69BD28A1017000CCC6EB /* GlobalVariable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVariable.swift; sourceTree = "<group>"; };
+		8DCB69BF28A13FB100CCC6EB /* ViewController+MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+MyViewController.swift"; sourceTree = "<group>"; };
+		8DCB69CB28A1516700CCC6EB /* String+MyString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+MyString.swift"; sourceTree = "<group>"; };
+		8DCB69CD28A151A200CCC6EB /* Date+MyDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+MyDate.swift"; sourceTree = "<group>"; };
+		8DCB69CF28A151E400CCC6EB /* ReaderViewController+ReaderMBR20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReaderViewController+ReaderMBR20.swift"; sourceTree = "<group>"; };
+		8DCB69D128A151FA00CCC6EB /* ReaderViewController+ReaderACS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReaderViewController+ReaderACS.swift"; sourceTree = "<group>"; };
+		8DCB69D328A155C000CCC6EB /* Color+MyColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+MyColor.swift"; sourceTree = "<group>"; };
+		8DCB69D528A163B600CCC6EB /* OfflineRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineRecord.swift; sourceTree = "<group>"; };
+		8DD270BA289C206700BEA5EE /* ReaderViewController + TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReaderViewController + TableView.swift"; sourceTree = "<group>"; };
+		8DD270BC289C216500BEA5EE /* ItemDataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDataCell.swift; sourceTree = "<group>"; };
+		8DD270BD289C216500BEA5EE /* ItemDataCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemDataCell.xib; sourceTree = "<group>"; };
+		8DDA9CAE289FC61E00618228 /* zipcode.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = zipcode.json; sourceTree = "<group>"; };
+		8DDA9CB0289FC87B00618228 /* PostalCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostalCode.swift; sourceTree = "<group>"; };
+		8DDA9CB328A0042A00618228 /* WACThaiIDCloudAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WACThaiIDCloudAPI.swift; sourceTree = "<group>"; };
+		A6CD057B96F989C6F2E4E3E9 /* Pods-WACThaiIDCloudTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WACThaiIDCloudTests.debug.xcconfig"; path = "Target Support Files/Pods-WACThaiIDCloudTests/Pods-WACThaiIDCloudTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EDD634FD5B71CFDCC26A1254 /* Pods_WACThaiIDCloud_WACThaiIDCloudUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WACThaiIDCloud_WACThaiIDCloudUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DB904C3288E993D00BCC4E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DB904FC288E9C0C00BCC4E6 /* mPayLib.a in Frameworks */,
+				1455BAE13B64672570037A44 /* Pods_WACThaiIDCloud.framework in Frameworks */,
+				8DB90502288EA4C400BCC4E6 /* ACSSmartCardIO.xcframework in Frameworks */,
+				8DD6F4EF2892E12F00D16900 /* ISO8859 in Frameworks */,
+				8DB90506288EA4CC00BCC4E6 /* SmartCardIO.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB904D9288E993F00BCC4E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F83B0F0FC5177FF9C04A2D9 /* Pods_WACThaiIDCloudTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB904E3288E994000BCC4E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76ABCF46B02439567DB2134D /* Pods_WACThaiIDCloud_WACThaiIDCloudUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DB904BD288E993D00BCC4E6 = {
+			isa = PBXGroup;
+			children = (
+				8DB904FA288E9BE800BCC4E6 /* mPayLib */,
+				8DB904C8288E993D00BCC4E6 /* WACThaiIDCloud */,
+				8DB904DF288E993F00BCC4E6 /* WACThaiIDCloudTests */,
+				8DB904E9288E994000BCC4E6 /* WACThaiIDCloudUITests */,
+				8DB904C7288E993D00BCC4E6 /* Products */,
+				E48269245478A6757443ACC5 /* Pods */,
+				B4ACEB11966CA7990BE11AE9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8DB904C7288E993D00BCC4E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DB904C6288E993D00BCC4E6 /* WACThaiIDCloud.app */,
+				8DB904DC288E993F00BCC4E6 /* WACThaiIDCloudTests.xctest */,
+				8DB904E6288E994000BCC4E6 /* WACThaiIDCloudUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DB904C8288E993D00BCC4E6 /* WACThaiIDCloud */ = {
+			isa = PBXGroup;
+			children = (
+				8DB904D2288E993F00BCC4E6 /* Assets.xcassets */,
+				8DB90500288EA17C00BCC4E6 /* BleComm.h */,
+				8DB904FF288EA17400BCC4E6 /* mPayBleLib.h */,
+				8DCB69C728A150C900CCC6EB /* Extensions */,
+				8DCB69C228A1506D00CCC6EB /* Features */,
+				8DCB69C128A1505300CCC6EB /* Models */,
+				8D2F9755289EA9380043A26F /* scripts */,
+				8DDA9CB228A003EA00618228 /* Services */,
+				8DCB69CA28A1512F00CCC6EB /* Storyboards */,
+				8DCB69C928A1511900CCC6EB /* Supporting Files */,
+			);
+			path = WACThaiIDCloud;
+			sourceTree = "<group>";
+		};
+		8DB904DF288E993F00BCC4E6 /* WACThaiIDCloudTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DB904E0288E993F00BCC4E6 /* WACThaiIDCloudTests.swift */,
+			);
+			path = WACThaiIDCloudTests;
+			sourceTree = "<group>";
+		};
+		8DB904E9288E994000BCC4E6 /* WACThaiIDCloudUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8DB904EA288E994000BCC4E6 /* WACThaiIDCloudUITests.swift */,
+				8DB904EC288E994000BCC4E6 /* WACThaiIDCloudUITestsLaunchTests.swift */,
+			);
+			path = WACThaiIDCloudUITests;
+			sourceTree = "<group>";
+		};
+		8DCB69C128A1505300CCC6EB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8DDA9CB0289FC87B00618228 /* PostalCode.swift */,
+				8D2F9757289ECD8A0043A26F /* NativeCardInfo.swift */,
+				8D2F9759289ECE1B0043A26F /* CardAddress.swift */,
+				8DCB69BD28A1017000CCC6EB /* GlobalVariable.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8DCB69C228A1506D00CCC6EB /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				8DCB69C328A1507F00CCC6EB /* Login */,
+				8DCB69C528A1509100CCC6EB /* Reader */,
+				8DCB69C428A1508900CCC6EB /* ScanDevice */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		8DCB69C328A1507F00CCC6EB /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8DCB69BB28A0E05A00CCC6EB /* LoginVC.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		8DCB69C428A1508900CCC6EB /* ScanDevice */ = {
+			isa = PBXGroup;
+			children = (
+				8DCB69C628A150A800CCC6EB /* UI */,
+				8D63F4DB28918D7A0012B9AF /* ScanDeviceViewController.swift */,
+			);
+			path = ScanDevice;
+			sourceTree = "<group>";
+		};
+		8DCB69C528A1509100CCC6EB /* Reader */ = {
+			isa = PBXGroup;
+			children = (
+				8DCB69C828A150E000CCC6EB /* UI */,
+				8DB63E0B289278C900FFE71B /* ReaderViewController.swift */,
+				8DD270BA289C206700BEA5EE /* ReaderViewController + TableView.swift */,
+				8DCB69CF28A151E400CCC6EB /* ReaderViewController+ReaderMBR20.swift */,
+				8DCB69D128A151FA00CCC6EB /* ReaderViewController+ReaderACS.swift */,
+			);
+			path = Reader;
+			sourceTree = "<group>";
+		};
+		8DCB69C628A150A800CCC6EB /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8D63F4DD289191B70012B9AF /* ListScanCell.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		8DCB69C728A150C900CCC6EB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8D6A68ED289E1CED00A7E989 /* Hex.swift */,
+				8DCB69BF28A13FB100CCC6EB /* ViewController+MyViewController.swift */,
+				8DCB69CB28A1516700CCC6EB /* String+MyString.swift */,
+				8DCB69CD28A151A200CCC6EB /* Date+MyDate.swift */,
+				8DCB69D328A155C000CCC6EB /* Color+MyColor.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8DCB69C828A150E000CCC6EB /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8DD270BC289C216500BEA5EE /* ItemDataCell.swift */,
+				8DD270BD289C216500BEA5EE /* ItemDataCell.xib */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		8DCB69C928A1511900CCC6EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DB904FE288EA02200BCC4E6 /* Bridging-Header.h */,
+				8DB904CB288E993D00BCC4E6 /* SceneDelegate.swift */,
+				8DB904C9288E993D00BCC4E6 /* AppDelegate.swift */,
+				8DB904D7288E993F00BCC4E6 /* Info.plist */,
+				8DDA9CAE289FC61E00618228 /* zipcode.json */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8DCB69CA28A1512F00CCC6EB /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8DB904D4288E993F00BCC4E6 /* LaunchScreen.storyboard */,
+				8DB904CF288E993D00BCC4E6 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		8DDA9CB228A003EA00618228 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8DDA9CB328A0042A00618228 /* WACThaiIDCloudAPI.swift */,
+				8DCB69D528A163B600CCC6EB /* OfflineRecord.swift */,
+				8D7516E128A37F5400A827A3 /* AuthRecord.swift */,
+				8D7516E328A3832600A827A3 /* DnsAndPortRecord.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B4ACEB11966CA7990BE11AE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DB90505288EA4CC00BCC4E6 /* SmartCardIO.xcframework */,
+				8DB90501288EA4C400BCC4E6 /* ACSSmartCardIO.xcframework */,
+				8DB904F9288E9BD300BCC4E6 /* mPayLib.a */,
+				1B41B4FF38D1A4C8D0581B83 /* Pods_WACThaiIDCloud.framework */,
+				EDD634FD5B71CFDCC26A1254 /* Pods_WACThaiIDCloud_WACThaiIDCloudUITests.framework */,
+				6BAD8803F6210359914341B3 /* Pods_WACThaiIDCloudTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E48269245478A6757443ACC5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68FDC5C7C66B4D802D60D204 /* Pods-WACThaiIDCloud.debug.xcconfig */,
+				5DC1B9101583791AEE67C62E /* Pods-WACThaiIDCloud.release.xcconfig */,
+				295607D0F1A72CD6DB08E931 /* Pods-WACThaiIDCloud-WACThaiIDCloudUITests.debug.xcconfig */,
+				5354B23E6E747178E4F7C518 /* Pods-WACThaiIDCloud-WACThaiIDCloudUITests.release.xcconfig */,
+				A6CD057B96F989C6F2E4E3E9 /* Pods-WACThaiIDCloudTests.debug.xcconfig */,
+				2D1DDF5C8171DB1A26E7A187 /* Pods-WACThaiIDCloudTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DB904C5288E993D00BCC4E6 /* WACThaiIDCloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DB904F0288E994000BCC4E6 /* Build configuration list for PBXNativeTarget "WACThaiIDCloud" */;
+			buildPhases = (
+				BBC717E1AE468BF1E00F3C75 /* [CP] Check Pods Manifest.lock */,
+				8DB904C2288E993D00BCC4E6 /* Sources */,
+				8DB904C3288E993D00BCC4E6 /* Frameworks */,
+				8DB904C4288E993D00BCC4E6 /* Resources */,
+				8DB90504288EA4C400BCC4E6 /* Embed Frameworks */,
+				C44CB0FA2B6E2FE5C2CDD374 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WACThaiIDCloud;
+			packageProductDependencies = (
+				8DD6F4EE2892E12F00D16900 /* ISO8859 */,
+			);
+			productName = WACThaiIDCloud;
+			productReference = 8DB904C6288E993D00BCC4E6 /* WACThaiIDCloud.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DB904DB288E993F00BCC4E6 /* WACThaiIDCloudTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DB904F3288E994000BCC4E6 /* Build configuration list for PBXNativeTarget "WACThaiIDCloudTests" */;
+			buildPhases = (
+				212484E87CFA16FCFF53F103 /* [CP] Check Pods Manifest.lock */,
+				8DB904D8288E993F00BCC4E6 /* Sources */,
+				8DB904D9288E993F00BCC4E6 /* Frameworks */,
+				8DB904DA288E993F00BCC4E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DB904DE288E993F00BCC4E6 /* PBXTargetDependency */,
+			);
+			name = WACThaiIDCloudTests;
+			productName = WACThaiIDCloudTests;
+			productReference = 8DB904DC288E993F00BCC4E6 /* WACThaiIDCloudTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8DB904E5288E994000BCC4E6 /* WACThaiIDCloudUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DB904F6288E994000BCC4E6 /* Build configuration list for PBXNativeTarget "WACThaiIDCloudUITests" */;
+			buildPhases = (
+				076605A69FB22F2FE0811766 /* [CP] Check Pods Manifest.lock */,
+				8DB904E2288E994000BCC4E6 /* Sources */,
+				8DB904E3288E994000BCC4E6 /* Frameworks */,
+				8DB904E4288E994000BCC4E6 /* Resources */,
+				42EAE00C2136B2E55F591CAB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DB904E8288E994000BCC4E6 /* PBXTargetDependency */,
+			);
+			name = WACThaiIDCloudUITests;
+			productName = WACThaiIDCloudUITests;
+			productReference = 8DB904E6288E994000BCC4E6 /* WACThaiIDCloudUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DB904BE288E993D00BCC4E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					8DB904C5288E993D00BCC4E6 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					8DB904DB288E993F00BCC4E6 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 8DB904C5288E993D00BCC4E6;
+					};
+					8DB904E5288E994000BCC4E6 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 8DB904C5288E993D00BCC4E6;
+					};
+				};
+			};
+			buildConfigurationList = 8DB904C1288E993D00BCC4E6 /* Build configuration list for PBXProject "WACThaiIDCloud" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DB904BD288E993D00BCC4E6;
+			packageReferences = (
+				8DD6F4ED2892E12F00D16900 /* XCRemoteSwiftPackageReference "ISO8859" */,
+			);
+			productRefGroup = 8DB904C7288E993D00BCC4E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DB904C5288E993D00BCC4E6 /* WACThaiIDCloud */,
+				8DB904DB288E993F00BCC4E6 /* WACThaiIDCloudTests */,
+				8DB904E5288E994000BCC4E6 /* WACThaiIDCloudUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DB904C4288E993D00BCC4E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DB904D6288E993F00BCC4E6 /* LaunchScreen.storyboard in Resources */,
+				8DB904FB288E9BE800BCC4E6 /* mPayLib in Resources */,
+				8DB904D3288E993F00BCC4E6 /* Assets.xcassets in Resources */,
+				8D2F9756289EA9380043A26F /* scripts in Resources */,
+				8DDA9CAF289FC61E00618228 /* zipcode.json in Resources */,
+				8DD270BF289C216500BEA5EE /* ItemDataCell.xib in Resources */,
+				8DB904D1288E993D00BCC4E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB904DA288E993F00BCC4E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB904E4288E994000BCC4E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		076605A69FB22F2FE0811766 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WACThaiIDCloud-WACThaiIDCloudUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		212484E87CFA16FCFF53F103 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WACThaiIDCloudTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42EAE00C2136B2E55F591CAB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WACThaiIDCloud-WACThaiIDCloudUITests/Pods-WACThaiIDCloud-WACThaiIDCloudUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WACThaiIDCloud-WACThaiIDCloudUITests/Pods-WACThaiIDCloud-WACThaiIDCloudUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WACThaiIDCloud-WACThaiIDCloudUITests/Pods-WACThaiIDCloud-WACThaiIDCloudUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBC717E1AE468BF1E00F3C75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WACThaiIDCloud-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C44CB0FA2B6E2FE5C2CDD374 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WACThaiIDCloud/Pods-WACThaiIDCloud-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WACThaiIDCloud/Pods-WACThaiIDCloud-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WACThaiIDCloud/Pods-WACThaiIDCloud-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DB904C2288E993D00BCC4E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D7516E228A37F5400A827A3 /* AuthRecord.swift in Sources */,
+				8D2F975A289ECE1B0043A26F /* CardAddress.swift in Sources */,
+				8DCB69BC28A0E05A00CCC6EB /* LoginVC.swift in Sources */,
+				8D63F4DC28918D7A0012B9AF /* ScanDeviceViewController.swift in Sources */,
+				8DB904CA288E993D00BCC4E6 /* AppDelegate.swift in Sources */,
+				8DDA9CB428A0042A00618228 /* WACThaiIDCloudAPI.swift in Sources */,
+				8D63F4DE289191B70012B9AF /* ListScanCell.swift in Sources */,
+				8D2F9758289ECD8A0043A26F /* NativeCardInfo.swift in Sources */,
+				8DD270BB289C206700BEA5EE /* ReaderViewController + TableView.swift in Sources */,
+				8DB904CC288E993D00BCC4E6 /* SceneDelegate.swift in Sources */,
+				8DCB69CC28A1516700CCC6EB /* String+MyString.swift in Sources */,
+				8DCB69D628A163B600CCC6EB /* OfflineRecord.swift in Sources */,
+				8D6A68EE289E1CED00A7E989 /* Hex.swift in Sources */,
+				8D7516E428A3832600A827A3 /* DnsAndPortRecord.swift in Sources */,
+				8DCB69BE28A1017000CCC6EB /* GlobalVariable.swift in Sources */,
+				8DDA9CB1289FC87B00618228 /* PostalCode.swift in Sources */,
+				8DCB69D028A151E400CCC6EB /* ReaderViewController+ReaderMBR20.swift in Sources */,
+				8DD270BE289C216500BEA5EE /* ItemDataCell.swift in Sources */,
+				8DCB69CE28A151A200CCC6EB /* Date+MyDate.swift in Sources */,
+				8DB63E0C289278C900FFE71B /* ReaderViewController.swift in Sources */,
+				8DCB69D428A155C000CCC6EB /* Color+MyColor.swift in Sources */,
+				8DCB69D228A151FA00CCC6EB /* ReaderViewController+ReaderACS.swift in Sources */,
+				8DCB69C028A13FB100CCC6EB /* ViewController+MyViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB904D8288E993F00BCC4E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DB904E1288E993F00BCC4E6 /* WACThaiIDCloudTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB904E2288E994000BCC4E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DB904EB288E994000BCC4E6 /* WACThaiIDCloudUITests.swift in Sources */,
+				8DB904ED288E994000BCC4E6 /* WACThaiIDCloudUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DB904DE288E993F00BCC4E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DB904C5288E993D00BCC4E6 /* WACThaiIDCloud */;
+			targetProxy = 8DB904DD288E993F00BCC4E6 /* PBXContainerItemProxy */;
+		};
+		8DB904E8288E994000BCC4E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DB904C5288E993D00BCC4E6 /* WACThaiIDCloud */;
+			targetProxy = 8DB904E7288E994000BCC4E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8DB904CF288E993D00BCC4E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DB904D0288E993D00BCC4E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8DB904D4288E993F00BCC4E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DB904D5288E993F00BCC4E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DB904EE288E994000BCC4E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8DB904EF288E994000BCC4E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DB904F1288E994000BCC4E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68FDC5C7C66B4D802D60D204 /* Pods-WACThaiIDCloud.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6KSPNFD33R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WACThaiIDCloud/Supporting Files/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/mPayLib",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wac.wacthaiidcloud.WACThaiIDCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/thananchaipinyo/Documents/GitHub/WAC/WACThaiIDCloud-IOS/WACThaiIDCloud/WACThaiIDCloud/Supporting Files/Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DB904F2288E994000BCC4E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DC1B9101583791AEE67C62E /* Pods-WACThaiIDCloud.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6KSPNFD33R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WACThaiIDCloud/Supporting Files/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/mPayLib",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wac.wacthaiidcloud.WACThaiIDCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/thananchaipinyo/Documents/GitHub/WAC/WACThaiIDCloud-IOS/WACThaiIDCloud/WACThaiIDCloud/Supporting Files/Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8DB904F4288E994000BCC4E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6CD057B96F989C6F2E4E3E9 /* Pods-WACThaiIDCloudTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6KSPNFD33R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wac.wacthaiidcloud.WACThaiIDCloudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WACThaiIDCloud.app/WACThaiIDCloud";
+			};
+			name = Debug;
+		};
+		8DB904F5288E994000BCC4E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D1DDF5C8171DB1A26E7A187 /* Pods-WACThaiIDCloudTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6KSPNFD33R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wac.wacthaiidcloud.WACThaiIDCloudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WACThaiIDCloud.app/WACThaiIDCloud";
+			};
+			name = Release;
+		};
+		8DB904F7288E994000BCC4E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 295607D0F1A72CD6DB08E931 /* Pods-WACThaiIDCloud-WACThaiIDCloudUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6KSPNFD33R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wac.wacthaiidcloud.WACThaiIDCloudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WACThaiIDCloud;
+			};
+			name = Debug;
+		};
+		8DB904F8288E994000BCC4E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5354B23E6E747178E4F7C518 /* Pods-WACThaiIDCloud-WACThaiIDCloudUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6KSPNFD33R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wac.wacthaiidcloud.WACThaiIDCloudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WACThaiIDCloud;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DB904C1288E993D00BCC4E6 /* Build configuration list for PBXProject "WACThaiIDCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DB904EE288E994000BCC4E6 /* Debug */,
+				8DB904EF288E994000BCC4E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DB904F0288E994000BCC4E6 /* Build configuration list for PBXNativeTarget "WACThaiIDCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DB904F1288E994000BCC4E6 /* Debug */,
+				8DB904F2288E994000BCC4E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DB904F3288E994000BCC4E6 /* Build configuration list for PBXNativeTarget "WACThaiIDCloudTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DB904F4288E994000BCC4E6 /* Debug */,
+				8DB904F5288E994000BCC4E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DB904F6288E994000BCC4E6 /* Build configuration list for PBXNativeTarget "WACThaiIDCloudUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DB904F7288E994000BCC4E6 /* Debug */,
+				8DB904F8288E994000BCC4E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8DD6F4ED2892E12F00D16900 /* XCRemoteSwiftPackageReference "ISO8859" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Cosmo/ISO8859.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8DD6F4EE2892E12F00D16900 /* ISO8859 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8DD6F4ED2892E12F00D16900 /* XCRemoteSwiftPackageReference "ISO8859" */;
+			productName = ISO8859;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8DB904BE288E993D00BCC4E6 /* Project object */;
+}

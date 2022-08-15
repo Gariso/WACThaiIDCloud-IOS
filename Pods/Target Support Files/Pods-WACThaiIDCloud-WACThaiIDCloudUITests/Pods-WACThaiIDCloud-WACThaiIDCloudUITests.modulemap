@@ -1,0 +1,6 @@
+framework module Pods_WACThaiIDCloud_WACThaiIDCloudUITests {
+  umbrella header "Pods-WACThaiIDCloud-WACThaiIDCloudUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

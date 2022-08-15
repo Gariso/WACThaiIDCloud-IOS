@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "iso8859",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Cosmo/ISO8859.git",
+      "state" : {
+        "revision" : "843b4fae6c0a3691121492a6d9ef22e34c6953a9",
+        "version" : "1.1.0"
+      }
+    }
+  ],
+  "version" : 2
+}
